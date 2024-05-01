@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: url(https://p1.hiclipart.com/preview/929/908/970/blur-textures-png-clipart-thumbnail.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Lugrasimo", cursive;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.colorpick {
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+#colorplay {
+  background-color: rgb(67, 170, 170);
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 6px;
+}
+
+#colimg {
+  text-align: center;
+  
+}
+
+#colimg img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 20px;
+  }
+
+  .colorpick {
+      font-size: 16px;
+  }
+
+  #colorplay {
+      font-size: 16px;
+      padding: 4px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  h1 {
+      font-size: 18px;
+  }
+
+  .colorpick {
+      font-size: 14px;
+  }
+
+  #colorplay {
+      font-size: 14px;
+      padding: 3px;
+  }
+}
